@@ -1,0 +1,5 @@
+segment,Customers,Avg_Recency_Days,Avg_Frequency,Avg_Spend_GHS,Total_Revenue,Avg_Order_Value,Revenue_Share_%
+At Risk,13815,199.63,2.62,1048.49,14484908.4,557.14,11.6
+Champions,5066,15.0,35.61,8118.15,41126565.38,241.63,32.9
+Lost / Inactive,16711,527.76,1.51,381.51,6375440.95,286.95,5.1
+Loyal Customers,14408,52.86,10.13,4361.88,62845979.0,488.8,50.3
