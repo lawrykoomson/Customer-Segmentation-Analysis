@@ -2,5 +2,13 @@ venv/
 .env
 __pycache__/
 *.pyc
-data/raw/
+*.log
+segmentation.log
+kafka_segmentation.log
+dbt/profiles.yml
+dbt/logs/
+dbt/.user.yml
+dbt/target/
 data/processed/
+data/raw/
+data/reports/
