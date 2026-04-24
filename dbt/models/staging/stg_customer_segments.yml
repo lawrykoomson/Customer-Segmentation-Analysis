@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: customer_dw
+    database: customer_segments
+    schema: customer_dw
+    tables:
+      - name: customer_segments
+        description: "Raw customer segmentation data loaded by pipeline"
+
+models:
+  - name: stg_customer_segments
+    description: "Staged customer segments with enriched tiers"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - unique
+          - not_null
+      - name: segment_name
+        description: "K-Means derived customer segment"
+        tests:
+          - not_null
+      - name: clv_score
+        description: "Customer lifetime value score 0-1"
+        tests:
+          - not_null

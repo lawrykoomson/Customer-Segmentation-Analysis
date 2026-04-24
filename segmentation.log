@@ -1,0 +1,14 @@
+2026-04-24 06:53:59,368 | INFO | ==============================================================
+2026-04-24 06:53:59,368 | INFO |   CUSTOMER SEGMENTATION PIPELINE — STARTED
+2026-04-24 06:53:59,369 | INFO | ==============================================================
+2026-04-24 06:53:59,369 | INFO | [EXTRACT] Generating synthetic customer transaction data...
+2026-04-24 06:54:00,516 | INFO | [EXTRACT] Generated 5,000 customer records.
+2026-04-24 06:54:00,531 | INFO | [TRANSFORM] Engineering RFM features and running K-Means clustering...
+2026-04-24 06:54:07,548 | INFO | [TRANSFORM] Segmentation complete.
+2026-04-24 06:54:07,596 | INFO |   At Risk: 2,519 customers (50.4%)
+2026-04-24 06:54:07,597 | INFO |   Loyal Customers: 1,348 customers (27.0%)
+2026-04-24 06:54:07,597 | INFO |   Lost/Inactive: 1,038 customers (20.8%)
+2026-04-24 06:54:07,598 | INFO |   Champions: 95 customers (1.9%)
+2026-04-24 06:54:07,598 | INFO | [LOAD] Attempting PostgreSQL connection...
+2026-04-24 06:54:10,086 | INFO | [LOAD] Successfully loaded 5,000 customer segments into PostgreSQL.
+2026-04-24 06:54:10,117 | INFO | PIPELINE COMPLETED in 10.75 seconds

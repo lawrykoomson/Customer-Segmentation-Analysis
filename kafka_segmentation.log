@@ -1,0 +1,5 @@
+2026-04-24 20:55:22,123 | INFO | CustomerProducer | Producer started on topic 'customer.behaviour.events' at 10 events/sec
+2026-04-24 20:55:22,123 | INFO | SegmentConsumer | Consumer started — monitoring Champions on partition 0
+2026-04-24 20:55:22,123 | INFO | MetricsConsumer | Consumer started — aggregating CLV metrics on partition 1
+2026-04-24 20:55:22,123 | INFO | AuditConsumer | Consumer started — logging events to data\reports\customer_events_live.jsonl
+2026-04-24 20:56:22,182 | INFO | CustomerProducer | Producer finished — published 594 events
